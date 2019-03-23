@@ -1,0 +1,13 @@
+﻿<Window x:Class="ShowMeASlogan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShowMeASlogan"
+        mc:Ignorable="d"
+        Title="Show me a slogan" Height="400" Width="1000">
+    <Grid>
+        <ListBox Name="libx_Data" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="185" Margin="10,20,0,0" VerticalContentAlignment="Center" VerticalAlignment="Top" FontSize="40" Width="973"/>
+        <Button Name="btn_Show" Content="Put me in the right mood" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="50" Margin="370,255,0,0" VerticalContentAlignment="Center" VerticalAlignment="Top" BorderThickness="2" FontSize="26" Width="300" Click="Btn_Show_Click"/>
+    </Grid>
+</Window>
